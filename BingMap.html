@@ -13,7 +13,7 @@
             function loadMapScenario() {
                 var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {});
                 Microsoft.Maps.loadModule('Microsoft.Maps.GeoXml', function () {
-                    var layer = new Microsoft.Maps.GeoXmlLayer('https://bingmapsv8samples.azurewebsites.net/Common/data/kml/SampleKml.kml');
+                    var layer = new Microsoft.Maps.GeoXmlLayer('https://github.com/KheseAmit/topojson-1/blob/master/millhouse_surveyarea.kml');
                     map.layers.insert(layer);
                 });
                 
